@@ -11,6 +11,6 @@ namespace My
 {
 
 BaseApplication g_App;
-IApplication* p_gApp = &g_App;
+IApplication* g_pApp = &g_App;
 
 }
